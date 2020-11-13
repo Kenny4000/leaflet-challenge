@@ -14,3 +14,10 @@ let baseMaps = {
     "Open Map": OpenTopoMap,
     "Esri Map": Esri_WorldImagery
 };
+
+//Map to Display the Layers for Open Map and Earthquakes
+let myMap = L.map("map", {
+    center: [39.8283, -98.5795],
+    zoom: 4,
+    layers: [OpenTopoMap, earthquakes]
+});
