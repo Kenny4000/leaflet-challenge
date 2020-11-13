@@ -21,3 +21,5 @@ let myMap = L.map("map", {
     zoom: 4,
     layers: [OpenTopoMap, earthquakes]
 });
+//Add Layers of baseMaps to the Map with Control
+L.control.layers(baseMaps).addTo(myMap);
