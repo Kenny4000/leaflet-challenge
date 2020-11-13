@@ -23,3 +23,6 @@ let myMap = L.map("map", {
 });
 //Add Layers of baseMaps to the Map with Control
 L.control.layers(baseMaps).addTo(myMap);
+
+//GeoJSON URL Data of the Site of the USGS
+let geoJSONUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
