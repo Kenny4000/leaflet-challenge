@@ -18,14 +18,14 @@ let baseMaps = {
 //Map to Display the Layers for Open Map and Earthquakes
 let myMap = L.map("map", {
     center: [39.8283, -98.5795],
-    zoom: 3,
+    zoom: 3.0,
     layers: [OpenTopoMap, earthquakes]
 });
 //Add Layers of baseMaps to the Map with Control
 L.control.layers(baseMaps).addTo(myMap);
 
 //GeoJSON URL Data of the Site of the USGS
-let geoJSONUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_month.geojson"
+let geoJSONUrl = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
 //Use D3.js to Make GeoJSON Call to the Site of the USGS
 d3.json(geoJSONUrl, function(geoJSONData) {
