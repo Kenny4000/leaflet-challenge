@@ -20,7 +20,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 1. Push the above changes to GitHub.
 
-## Your Task
+## Task
 
 ### Level 1: Basic Visualization
 
@@ -28,7 +28,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 Your first task is to visualize an earthquake data set.
 
-1. **Get your data set**
+1. **Data set**
 
    ![3-Data](Images/3-Data.png)
 
